@@ -2,12 +2,11 @@ import { Component, Input, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
-  selector: 'app-book',
-  templateUrl: './book.component.html',
-  styleUrl: './book.component.css'
+  selector: 'app-movie',
+  templateUrl: './movie.component.html',
+  styleUrl: './movie.component.css'
 })
-export class BookComponent implements OnInit {
-  
+export class MovieComponent implements OnInit {
   form! :FormGroup
 
   constructor(private formBuilder :FormBuilder){}
@@ -23,5 +22,3 @@ export class BookComponent implements OnInit {
     this.movies.splice(index,1);
   }
 }
-
-

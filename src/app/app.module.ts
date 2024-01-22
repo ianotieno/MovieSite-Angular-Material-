@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BookComponent } from './book/book.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { GenericListComponent } from './generic-list/generic-list.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -19,12 +18,17 @@ import { IndexMovieThreaterComponent } from './movie-threaters/index-movie-threa
 import { CreateMovieThreaterComponent } from './movie-threaters/create-movie-threater/create-movie-threater.component';
 import { CreateMovieComponent } from './movies/create-movie/create-movie.component';
 import { EditActorComponent } from './actors/edit-actor/edit-actor.component';
+import { FormGenreComponent } from './genre/form-genre/form-genre.component';
+import { EditGenreComponent } from './edit/edit-genre/edit-genre.component';
+import { MoviveFilterComponent } from './filter/movive-filter/movive-filter.component';
+import { MovieComponent } from './movie/movie/movie.component';
+
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    BookComponent,
     GenericListComponent,
     MenuComponent,
     RatingComponent,
@@ -37,6 +41,11 @@ import { EditActorComponent } from './actors/edit-actor/edit-actor.component';
     CreateMovieThreaterComponent,
     CreateMovieComponent,
     EditActorComponent,
+    FormGenreComponent,
+    EditGenreComponent,
+    MoviveFilterComponent,
+    MovieComponent,
+  
     
    
  

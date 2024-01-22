@@ -9,6 +9,7 @@ import { IndexMovieThreaterComponent } from './movie-threaters/index-movie-threa
 import { CreateMovieThreaterComponent } from './movie-threaters/create-movie-threater/create-movie-threater.component';
 import { CreateMovieComponent } from './movies/create-movie/create-movie.component';
 import { EditActorComponent } from './actors/edit-actor/edit-actor.component';
+import { MoviveFilterComponent } from './filter/movive-filter/movive-filter.component';
 
 const routes: Routes = [
  {path:'', component: HomeComponent},
@@ -21,7 +22,7 @@ const routes: Routes = [
 
  {path:'movietheaters', component:IndexMovieThreaterComponent},
  {path:'movietheaters/create', component:CreateMovieThreaterComponent},
-
+{path:'movies/filter', component:MoviveFilterComponent},
  
  {path:'create/movies', component:CreateMovieComponent},
 {path: '**', redirectTo:""}

@@ -1,5 +1,29 @@
-.moviecontainer{
-    border: 1px solid black;
-    margin-bottom: 1rem;
-    padding: 1rem;
+.movies-container {
+    margin-right: 2%;
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+}
+
+.movie-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2%;
+}
+
+p {
+    max-width: 225px;
+    height: 44px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+img {
+    width: 170px; /* Adjust the width as needed */
+    height: 250px; /* Adjust the height as needed */
+}
+
+button {
+    margin-left: 1em;
 }

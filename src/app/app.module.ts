@@ -10,6 +10,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
 import { MenuComponent } from './menu/menu.component';
 import { RatingComponent } from './rating/rating.component';
+import { HomeComponent } from './home/home.component';
+import { IndexGenresComponent } from './index-genres/index-genres.component';
+import { CreateGenreComponent } from './genres/create-genre/create-genre.component';
+import { IndexActorsComponent } from './actors/index-actors/index-actors.component';
+import { IndexActorComponent } from './actors/index-actor/index-actor.component';
+import { IndexMovieThreaterComponent } from './movie-threaters/index-movie-threater/index-movie-threater.component';
+import { CreateMovieThreaterComponent } from './movie-threaters/create-movie-threater/create-movie-threater.component';
+import { CreateMovieComponent } from './movies/create-movie/create-movie.component';
 
 
 @NgModule({
@@ -19,6 +27,14 @@ import { RatingComponent } from './rating/rating.component';
     GenericListComponent,
     MenuComponent,
     RatingComponent,
+    HomeComponent,
+    IndexGenresComponent,
+    CreateGenreComponent,
+    IndexActorsComponent,
+    IndexActorComponent,
+    IndexMovieThreaterComponent,
+    CreateMovieThreaterComponent,
+    CreateMovieComponent,
    
  
   ],

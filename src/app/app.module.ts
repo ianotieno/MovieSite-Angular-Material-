@@ -18,6 +18,7 @@ import { IndexActorComponent } from './actors/index-actor/index-actor.component'
 import { IndexMovieThreaterComponent } from './movie-threaters/index-movie-threater/index-movie-threater.component';
 import { CreateMovieThreaterComponent } from './movie-threaters/create-movie-threater/create-movie-threater.component';
 import { CreateMovieComponent } from './movies/create-movie/create-movie.component';
+import { EditActorComponent } from './actors/edit-actor/edit-actor.component';
 
 
 @NgModule({
@@ -35,6 +36,8 @@ import { CreateMovieComponent } from './movies/create-movie/create-movie.compone
     IndexMovieThreaterComponent,
     CreateMovieThreaterComponent,
     CreateMovieComponent,
+    EditActorComponent,
+    
    
  
   ],

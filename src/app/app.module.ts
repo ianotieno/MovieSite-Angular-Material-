@@ -23,6 +23,7 @@ import { EditGenreComponent } from './edit/edit-genre/edit-genre.component';
 import { MoviveFilterComponent } from './filter/movive-filter/movive-filter.component';
 import { MovieComponent } from './movie/movie/movie.component';
 import { Actor1Component } from './edit/actor1/actor1.component';
+import { InputComponent } from './input/input.component';
 
 
 
@@ -47,6 +48,7 @@ import { Actor1Component } from './edit/actor1/actor1.component';
     MoviveFilterComponent,
     MovieComponent,
     Actor1Component,
+    InputComponent,
   
     
    

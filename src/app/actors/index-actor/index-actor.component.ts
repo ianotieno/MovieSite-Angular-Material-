@@ -9,6 +9,7 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 })
 export class IndexActorComponent  implements OnInit{
 
+
 @Input()
 model!: actorCreateDTO;
 
@@ -25,7 +26,8 @@ this.onsaveChange.emit(this.form.value);
     name:['',{
       Validators:[Validators.required]
     }],
-    dateofbirth:''
+    dateofbirth:'',
+    picture:''
    });
    if(this.model !== undefined){
   this.form.patchValue(this.model);
@@ -34,5 +36,8 @@ this.onsaveChange.emit(this.form.value);
   }
 
   constructor(private formBuilder:FormBuilder){}
+  onSelected(image: any) {
+    this.form.get('picture')?.setValue(image)
+  }
 
 }

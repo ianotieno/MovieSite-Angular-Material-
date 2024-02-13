@@ -24,7 +24,12 @@ import { MoviveFilterComponent } from './filter/movive-filter/movive-filter.comp
 import { MovieComponent } from './movie/movie/movie.component';
 import { Actor1Component } from './edit/actor1/actor1.component';
 import { InputComponent } from './input/input.component';
-
+import { InputMarkdownComponent } from './input-markdown/input-markdown.component';
+import { MarkdownModule } from 'ngx-markdown';
+import {LeafletModule} from '@asymmetrik/ngx-leaflet';
+import { MapComponent } from './map/map.component';
+import { FormsComponent } from './movies/forms/forms.component';
+import { MutlipleSelectorComponent } from './mutliple-selector/mutliple-selector.component'
 
 
 
@@ -49,7 +54,11 @@ import { InputComponent } from './input/input.component';
     MovieComponent,
     Actor1Component,
     InputComponent,
-  
+    InputMarkdownComponent,
+    MapComponent,
+    FormsComponent,
+    MutlipleSelectorComponent,
+
     
    
  
@@ -60,7 +69,9 @@ import { InputComponent } from './input/input.component';
     FormsModule,
     ReactiveFormsModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    LeafletModule,
+    MarkdownModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

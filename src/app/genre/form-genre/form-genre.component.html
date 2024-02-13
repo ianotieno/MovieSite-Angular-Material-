@@ -4,6 +4,8 @@
         <input formControlName="name" matInput/>
         <mat-error *ngIf="form.invalid">{{getError()}}</mat-error>
     </mat-form-field>
+    <h4>Select the Location of the theater </h4>
+    <app-map></app-map>
     <div>
     
         <button mat-flat-button color="primary" [disabled]="form.invalid" >Save Changes</button>

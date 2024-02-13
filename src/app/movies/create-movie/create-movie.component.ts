@@ -1,3 +1,4 @@
+import { movieCreationDTO } from './../../edit/movies.model';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './create-movie.component.css'
 })
 export class CreateMovieComponent {
+save(movieCreationDTO:movieCreationDTO) {
+
+}
 
 }

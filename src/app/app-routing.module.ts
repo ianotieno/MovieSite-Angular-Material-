@@ -10,6 +10,7 @@ import { CreateMovieThreaterComponent } from './movie-threaters/create-movie-thr
 import { CreateMovieComponent } from './movies/create-movie/create-movie.component';
 import { EditActorComponent } from './actors/edit-actor/edit-actor.component';
 import { MoviveFilterComponent } from './filter/movive-filter/movive-filter.component';
+import { InputMarkdownComponent } from './input-markdown/input-markdown.component';
 
 const routes: Routes = [
  {path:'', component: HomeComponent},
@@ -25,6 +26,7 @@ const routes: Routes = [
 {path:'movies/filter', component:MoviveFilterComponent},
  
  {path:'create/movies', component:CreateMovieComponent},
+ {path:'create/test', component:InputMarkdownComponent},
 {path: '**', redirectTo:""}
 
 

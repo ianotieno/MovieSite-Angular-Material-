@@ -8,6 +8,9 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
   styleUrl: './index-actor.component.css'
 })
 export class IndexActorComponent  implements OnInit{
+changeMarkdown($event: string) {
+this.form.get('biography')?.setValue($event)
+}
 
 
 @Input()
@@ -27,7 +30,8 @@ this.onsaveChange.emit(this.form.value);
       Validators:[Validators.required]
     }],
     dateofbirth:'',
-    picture:''
+    picture:'',
+    biography:''
    });
    if(this.model !== undefined){
   this.form.patchValue(this.model);

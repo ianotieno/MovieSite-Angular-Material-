@@ -7,5 +7,10 @@ mat-form-field{
 }
 button{
     margin-right: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+a {
+    margin-right: 1rem; /* You can adjust the margin here */
     margin-bottom: 1rem;
 }
